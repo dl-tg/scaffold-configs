@@ -12,7 +12,7 @@
       // Implementation of utility functions
 
   include:
-  include/utils.h: |
+    utils.h: |
       #ifndef UTILS_H
       #define UTILS_H
 
@@ -46,11 +46,11 @@
           return 0;
       }
       
-    data:
-      test_data_1.txt: |
-        This is test data 1.
+  tests/data:
+    test_data_1.txt: |
+      This is test data 1.
 
-      test_data_2.txt: |
-        This is test data 2.
+    test_data_2.txt: |
+      This is test data 2.
 
   bin:
