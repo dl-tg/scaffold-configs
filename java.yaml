@@ -1,0 +1,24 @@
+.:
+  lib:
+  dist:
+  docs:
+    documentation.md:
+  build/classes/com.example:
+    MyClass.class:
+  src/test/com.example:
+    MyClassTest.java:
+  src/main/resources:
+    config.properties:
+  
+  src/main/java/com.example:
+    MyClass.java: |
+      package com.example;
+
+      public class MyClass {
+          public static void main(String[] args) {
+              System.out.println("Hello, World!");
+          }
+      }
+  README.md:
+  LICENSE:
+  build.gradle:

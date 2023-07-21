@@ -1,0 +1,56 @@
+.:
+  src:
+    main.cpp: |
+      #include <iostream>
+
+      int main() {
+          std::cout << "Hello, world!" << std::endl;
+          return 0;
+      }
+    utils.cpp: |
+      #include "utils.h"
+      // Implementation of utility functions
+
+  include:
+  include/utils.h: |
+      #ifndef UTILS_H
+      #define UTILS_H
+
+      // Function declarations for utility functions
+
+      #endif  // UTILS_H
+
+  build:
+
+  docs:
+    README.md: |
+      # My C++ Project
+      This is a sample C++ project.
+
+  tests:
+    test_utils.cpp: |
+      #include <iostream>
+      #include "utils.h"
+      
+      int main() {
+          // Test utility functions
+          return 0;
+      }
+
+    test_math.cpp: |
+      #include <iostream>
+      #include "math.h"
+      
+      int main() {
+          // Test math functions
+          return 0;
+      }
+      
+    data:
+      test_data_1.txt: |
+        This is test data 1.
+
+      test_data_2.txt: |
+        This is test data 2.
+
+  bin:
