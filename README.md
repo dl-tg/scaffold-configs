@@ -7,7 +7,7 @@ You can do it like this
 
 ### Linux
 ```bash
-wget -qhttps://raw.githubusercontent.com/cemister/scaffold-configs/master/cpp.yaml && scaffold --name hello --yaml "./cpp.yaml" && rm cpp.yaml
+wget -q https://raw.githubusercontent.com/cemister/scaffold-configs/master/cpp.yaml && scaffold --name hello --yaml "./cpp.yaml" && rm cpp.yaml
 ```
 ### macOS
 ```bash
