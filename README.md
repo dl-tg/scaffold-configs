@@ -2,7 +2,9 @@
 YAML templates for [Scaffolder](https://github.com/cemister/scaffolder)
 
 ## Usage
-You can do it like this (Replace cpp.yaml with needed config and hello to your actual project name)
+You can do it like this 
+(Replace cpp.yaml with needed config and hello to your actual project name)
+
 ### Linux
 ```bash
 wget https://raw.githubusercontent.com/cemister/scaffold-configs/master/cpp.yaml && scaffold --name hello --yaml "./cpp.yaml" && rm cpp.yaml
