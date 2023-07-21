@@ -2,7 +2,7 @@
 YAML templates for [Scaffolder](https://github.com/cemister/scaffolder)
 
 ## Usage
-all your scaffolder YAML configs should be stored in scaffolder_config folder in your home directory. (~/scaffolder-configs for Unix, %USERPROFILE%/scaffolder-configs for Windows). Make sure to create it and populate it with configs you need.
+all your scaffolder YAML configs should be stored in scaffolder-configs folder in your home directory. (~/scaffolder-configs for Unix, %USERPROFILE%/scaffolder-configs for Windows). Make sure to create it and populate it with configs you need.
  
 (Replace cpp.yaml with needed config and hello to your actual project name)
 
