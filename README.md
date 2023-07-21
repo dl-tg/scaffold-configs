@@ -2,20 +2,26 @@
 YAML templates for [Scaffolder](https://github.com/cemister/scaffolder)
 
 ## Usage
-You can do it like this 
+all your scaffolder YAML configs should be stored in scaffolder_config folder in your home directory. (~/scaffolder_configs for Unix, %USERPROFILE%/scaffolder_configs for Windows). Make sure to create it and populate it with configs you need.
+ 
 (Replace cpp.yaml with needed config and hello to your actual project name)
 
 ### Linux
 ```bash
-wget -q https://raw.githubusercontent.com/cemister/scaffold-configs/master/cpp.yaml && scaffold --name hello --yaml "./cpp.yaml" && rm cpp.yaml
+cd ~/scaffolder_configs && wget -q https://raw.githubusercontent.com/cemister/scaffold-configs/master/cpp.yaml
 ```
 ### macOS
 ```bash
-curl -s -O https://raw.githubusercontent.com/cemister/scaffold-configs/master/cpp.yaml && scaffold --name hello --yaml "./cpp.yaml" && rm cpp.yaml
+cd ~/scaffolder_configs && curl -s -O https://raw.githubusercontent.com/cemister/scaffold-configs/master/cpp.yaml
 ```
 ### Windows
 ```bash
-curl -s -o cpp.yaml https://raw.githubusercontent.com/cemister/scaffold-configs/master/cpp.yaml && scaffold --name hello --yaml "./cpp.yaml" && del cpp.yaml
+cd %USERPROFILE%/scaffolder_configs
+curl -s -o cpp.yaml https://raw.githubusercontent.com/cemister/scaffold-configs/master/cpp.yaml
+```
+### Run
+```bash
+scaffold --name hello --yaml "cpp.yaml"
 ```
 
 Those are templates; feel free to fork this repo and modify them or make your own.
