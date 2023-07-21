@@ -11,11 +11,11 @@ wget -q https://raw.githubusercontent.com/cemister/scaffold-configs/master/cpp.y
 ```
 ### macOS
 ```bash
-curl -q -O https://raw.githubusercontent.com/cemister/scaffold-configs/master/cpp.yaml && scaffold --name hello --yaml "./cpp.yaml" && rm cpp.yaml
+curl -s -O https://raw.githubusercontent.com/cemister/scaffold-configs/master/cpp.yaml && scaffold --name hello --yaml "./cpp.yaml" && rm cpp.yaml
 ```
 ### Windows
 ```bash
-curl -q -o cpp.yaml https://raw.githubusercontent.com/cemister/scaffold-configs/master/cpp.yaml && scaffold --name hello --yaml "./cpp.yaml" && del cpp.yaml
+curl -s -o cpp.yaml https://raw.githubusercontent.com/cemister/scaffold-configs/master/cpp.yaml && scaffold --name hello --yaml "./cpp.yaml" && del cpp.yaml
 ```
 
 Those are templates; feel free to fork this repo and modify them or make your own.
