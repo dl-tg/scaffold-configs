@@ -7,15 +7,15 @@ You can do it like this
 
 ### Linux
 ```bash
-wget https://raw.githubusercontent.com/cemister/scaffold-configs/master/cpp.yaml && scaffold --name hello --yaml "./cpp.yaml" && rm cpp.yaml
+wget -qhttps://raw.githubusercontent.com/cemister/scaffold-configs/master/cpp.yaml && scaffold --name hello --yaml "./cpp.yaml" && rm cpp.yaml
 ```
 ### macOS
 ```bash
-curl -O https://raw.githubusercontent.com/cemister/scaffold-configs/master/cpp.yaml && scaffold --name hello --yaml "./cpp.yaml" && rm cpp.yaml
+curl -q -O https://raw.githubusercontent.com/cemister/scaffold-configs/master/cpp.yaml && scaffold --name hello --yaml "./cpp.yaml" && rm cpp.yaml
 ```
 ### Windows
 ```bash
-curl -o cpp.yaml https://raw.githubusercontent.com/cemister/scaffold-configs/master/cpp.yaml && scaffold --name hello --yaml "./cpp.yaml" && del cpp.yaml
+curl -q -o cpp.yaml https://raw.githubusercontent.com/cemister/scaffold-configs/master/cpp.yaml && scaffold --name hello --yaml "./cpp.yaml" && del cpp.yaml
 ```
 
 Those are templates; feel free to fork this repo and modify them or make your own.
