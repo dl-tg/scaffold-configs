@@ -11,8 +11,8 @@
         <title>Your Website Title</title>
 
         <!-- Add your CSS and JavaScript files here -->
-        <link rel="stylesheet" href="path/to/your.css">
-        <script src="path/to/your.js" defer></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js" defer></script>
     </head>
 
     <body>

@@ -3,7 +3,7 @@ src:
     fn main() {
       println!("Hello, World!");
     }
-  tests:
+src/tests:
     test_module.rs:
 .:
   Cargo.toml:
